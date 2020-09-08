@@ -18,6 +18,6 @@ var numberOfOrderedPairs = function(input) {
             }
         }
     }
-    return 3; 
+    return total_pairs; 
 
 };
