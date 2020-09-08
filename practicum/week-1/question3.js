@@ -12,7 +12,7 @@ var numberOfOrderedPairs = function(input) {
     var total_pairs = 0;
     for(var i = 0; i < input.length; i++){
         var current = input[i];
-        for(var r = 0; r < input.lenght; j++){
+        for(r =i +1; r < input.lenght; j++){
             if (current < input[r]){
                 total_pairs++;
             }
