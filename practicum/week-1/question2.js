@@ -15,5 +15,6 @@ Example: input: cookies = [3, 5, 8] , extraCookies = 8
                  total += cookies[i];
          }   
          total += extraCookies;
-         return total >= (Math.max(cookies)*3); 
+         maxco = (Math.max(cookies)*3)
+         return total >= maxco; 
  };
